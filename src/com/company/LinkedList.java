@@ -82,7 +82,12 @@ public class LinkedList {
 
     public void checkCycle(){
         LinkedListCycle check = new LinkedListCycle();
+
+        //Function to check if LinkedList has Cycle
         System.out.println(check.hasCycleHashMap(head));
         System.out.println(check.hasCycleTwoPointer(head));
+
+        //Function to check if LinkedList has intersection
+
     }
 }
