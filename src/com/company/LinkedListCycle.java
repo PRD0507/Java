@@ -24,15 +24,14 @@ public class LinkedListCycle {
         return false;
     }
 
-    public boolean hasCycleTwoPointer(Node head){
-        if(head==null){
+    public boolean hasCycleTwoPointer(Node head) {
+        if (head == null) {
             return false;
-        }
-        else{
+        } else {
             Node slow = head;
             Node fast = head.next;
-            while(fast!=null && fast.next!=null){
-                if(slow == fast){
+            while (fast != null && fast.next != null) {
+                if (slow == fast) {
                     return true;
                 }
 
