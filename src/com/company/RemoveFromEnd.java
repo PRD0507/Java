@@ -1,3 +1,5 @@
+package com.company;
+
 public class RemoveFromEnd {
     /**
      * Definition for singly-linked list.
