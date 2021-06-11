@@ -11,7 +11,6 @@ public class Main {
         list.print();
 
         list.insertBeginning(30);
-
         list.print();
 
         list.checkCycle();
