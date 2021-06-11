@@ -32,7 +32,7 @@ public class LinkedList {
         System.out.println();
     }
 
-    public void insertBegining(int data){
+    public void insertBeginning(int data){
         Node node = new  Node();
         node.data = data;
         node.next = head;
@@ -60,7 +60,7 @@ public class LinkedList {
         else{
 
             if(index-1 == 0) {
-                insertBegining(data);
+                insertBeginning(data);
             }
             else{
                 Node node = new Node();
@@ -78,5 +78,11 @@ public class LinkedList {
             }
         }
 
+    }
+
+    public void checkCycle(){
+        LinkedListCycle check = new LinkedListCycle();
+        System.out.println(check.hasCycleHashMap(head));
+        System.out.println(check.hasCycleTwoPointer(head));
     }
 }

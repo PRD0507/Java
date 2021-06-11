@@ -10,9 +10,11 @@ public class Main {
         list.insertEnd(20);
         list.print();
 
-        list.insertBegining(30);
+        list.insertBeginning(30);
 
         list.print();
+
+        list.checkCycle();
 
 
     }
