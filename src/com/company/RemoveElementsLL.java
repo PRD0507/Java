@@ -3,6 +3,7 @@ package com.company;
 public class RemoveElementsLL {
     public ListNode removeElements(ListNode head, int val) {
 
+        //If head is null
         if(head == null){
             return null;
         }
