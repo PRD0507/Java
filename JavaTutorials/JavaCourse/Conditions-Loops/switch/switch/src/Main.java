@@ -5,13 +5,15 @@ public class Main {
         Scanner input = new Scanner(System.in);
         String fruit = input.next();
 
-        if (fruit.equals("Mango")){
-            System.out.println("King of Fruit");
+        switch (fruit) {
+            case "Mango":
+                System.out.println("King of Fruit");
+                break;
+            case "Apple":
+                System.out.println("Apple Fruit");
+                break;
+            default:
+                System.out.println("Default Case");
         }
-        else {
-            System.out.println("Not mango");
-        }
-
-
     }
 }
