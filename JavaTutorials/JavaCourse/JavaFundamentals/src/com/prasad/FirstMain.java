@@ -1,8 +1,8 @@
-package com.prasad;
+package JavaFundamentals.src.com.prasad;
 
 import java.util.Scanner;
 
-public class Main {
+public class FirstMain {
     public static void main(String[] args) {
         System.out.println("Hello and welcome!");
         for (int i = 1; i <= 5; i++) {
