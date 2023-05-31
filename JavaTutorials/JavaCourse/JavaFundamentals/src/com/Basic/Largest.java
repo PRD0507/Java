@@ -1,6 +1,5 @@
-package com.prasad;
+package com.Basic;
 
-import java.io.InputStream;
 import java.util.Scanner;
 
 public class Largest {

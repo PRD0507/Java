@@ -1,4 +1,4 @@
-package com.prasad;
+package com.Basic;
 
 public class Reverse {
     public static void main(String[] args) {
