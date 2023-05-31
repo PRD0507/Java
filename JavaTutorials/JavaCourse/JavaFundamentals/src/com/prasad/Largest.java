@@ -21,5 +21,8 @@ public class Largest {
 
         System.out.println("Maximum is "+max);
 
+        max = Math.max(c, Math.max(a, b));
+        System.out.println("Function based "+ max);
+
     }
 }
